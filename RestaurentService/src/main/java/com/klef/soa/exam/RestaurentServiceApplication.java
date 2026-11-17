@@ -1,0 +1,16 @@
+package com.klef.soa.exam;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+
+@SpringBootApplication
+@EnableDiscoveryClient
+public class RestaurentServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(RestaurentServiceApplication.class, args);
+		System.out.println("Restaurent Service Project is running......");
+	}
+
+}
